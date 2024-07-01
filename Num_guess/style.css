@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: #2f2f2f;
+    color:white;
+  }
+  #para1{
+    position:absolute;
+    top:150px;
+    left:160px;
+    z-index: 999;
+  }
+  #para2{
+    position:absolute;
+    top:180px;
+    left:160px;
+    z-index: 999;
+  }
+  .container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:20%;
+    left:20%;
+  }
+  #box{
+    height:20px;
+    width:200px;
+  }
+  h2 {
+    position:absolute;
+    left:100px;
+  }
+  .innercontainer {
+    background-color: black;
+    height:60vh;
+    width:50vh;
+    display:grid;
+    align-items:center;
+    justify-content:center;
+    row-gap: 0px;
+    
+    
+  }
